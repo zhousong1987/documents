@@ -1,10 +1,10 @@
-1、JavaEE是一组规范的集合。<br>
-2、JavaEE的13种核心技术规范：
-  2.1、JDBC（Java Database）数据库连接
-  2.2、JNDI（Java Naming and Directory Interfaces）Java 的命名和目录接口
-  2.3、EJB（Enterprise JavaBean）
-  2.4、RMI（Remote Method Invoke）远程方法调用
-  2.5、Java IDL（Interface Description Language）/CORBA（Common Object Broker Architecture）Java 接口定义语言/公用对象请求代理程序体系结构
+#1、JavaEE是一组规范的集合。
+#2、JavaEE的13种核心技术规范：
+##  2.1、JDBC（Java Database）数据库连接
+##  2.2、JNDI（Java Naming and Directory Interfaces）Java 的命名和目录接口
+##  2.3、EJB（Enterprise JavaBean）
+##  2.4、RMI（Remote Method Invoke）远程方法调用
+##  2.5、Java IDL（Interface Description Language）/CORBA（Common Object Broker Architecture）Java 接口定义语言/公用对象请求代理程序体系结构
   2.6、Servlet 
   2.7、JSP（Java Server Pages）
   2.8、XML（Extensible Markup Language）可扩展白标记语言
