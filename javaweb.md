@@ -19,6 +19,6 @@
 
 4、Tomcat服务器 = Web服务器 + Servlet/JSP容器（Web容器）
 
-5、Servlet是一个Java类，运行在Servlet容器中（如Tomcat），负责接收请求，调用Service处理数据，负责响应数据。
+5、狭义的Servlet是指Java语言实现的一个接口，广义的Servlet是指任何实现了这个Servlet接口的类，一般情况下，人们将Servlet理解为后者。Servlet运行于支持Java的应用服务器中(如Tomcat)。从原理上讲，Servlet可以响应任何类型的请求，但绝大多数情况下Servlet只用来扩展基于HTTP协议的Web服务器。
 
-6、JSP本质上就是一个Servlet。每个JSP 页面在第一次被访问时，JSP引擎将它翻译成一个Servlet源程序，接着再把这个Servlet源程序编译成Servlet的class类文件，然后再由WEB容器像调用普通Servlet程序一样的方式来装载和解释执行这个由JSP页面翻译成的Servlet程序。
+6、JSP本质上就是一个Servlet。每个JSP 页面在第一次被访问时，JSP引擎将它翻译成一个Servlet源程序，接着再把这个Servlet源程序编译成Servlet的class类文件，然后再由应用服务器中(如Tomcat)像调用普通Servlet程序一样的方式来装载和解释执行这个由JSP页面翻译成的Servlet程序。
