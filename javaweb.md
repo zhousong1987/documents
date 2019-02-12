@@ -15,6 +15,7 @@
 - 2.11、JTS（Java Transaction Service）Java 事务服务
 - 2.12、JavaMail
 - 2.13、JAF（JavaBean Activation Framework）
+
 3、JavaWeb主要指以Java语言为基础，利用JavaEE中的Servlet、JSP等技术开发动态页面，方便用户通过浏览器与服务器后台交互。JavaWeb应用程序可运行在一个轻量级的应用服务器中，比如Tomcat。
 
 4、Tomcat服务器 = Web服务器 + Servlet/JSP容器（Web容器）
