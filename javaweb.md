@@ -1,5 +1,5 @@
-#1、JavaEE是一组规范的集合。
-#2、JavaEE的13种核心技术规范：
+# 1、JavaEE是一组规范的集合。
+# 2、JavaEE的13种核心技术规范：
 ##  2.1、JDBC（Java Database）数据库连接
 ##  2.2、JNDI（Java Naming and Directory Interfaces）Java 的命名和目录接口
 ##  2.3、EJB（Enterprise JavaBean）
