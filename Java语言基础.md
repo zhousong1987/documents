@@ -1,4 +1,4 @@
-# Java基础
+# 基本概念
 
 1、Java不仅是编程语言，还是一个开发平台，Sun公司根据Java应用领域的不同将Java分成三个平台：Java SE、Java EE、Java ME。
 
