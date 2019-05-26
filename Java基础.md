@@ -174,3 +174,51 @@
 - 重用代码；
 - 提高安全性：将运行期的错误转换到编译期，如果我们在对一个对象所赋的值不符合其泛型的规定，就会编译报错
 - 避免强转：比如我们在使用list时，如果不使用泛型当从list中取出元素时，其类型会是默认的Object，我们必须将其向下转型才能使用。
+
+## 反射
+1、反射（reflection）是程序的自我分析能力。
+
+2、Java反射机制API主要是java.lang.Class类和java.lang.reflect包。
+
+3、java.lang.Class类是实现反射的关键所在，Class类的一个实例表示Java的一种数据类型，包括类、接口、枚举、注解、数组、基本数据类型和void。Class没有公有的构造方法，Class类实例由JVM在类加载时自动创建。
+
+4、在程序代码中获得Class实例可以通过以下三种方法：
+- 通过类型class静态变量；
+- 通过对象的getClass方法；
+- 通过Class类的forName方法
+
+5、Java反射机制提供了另外一种创建对象的方法。
+
+## 注解
+
+1、注解本质是一种接口，它是java.lang.annotation.Annotation接口的子接口，是引用数据类型。
+
+2、到Java8为止，Java SE提供了11种内置注解，其中有5种是基本注解，它们来自于java.lang包；有6种是元注解，它们来自于java.lang.annotation包：
+- 基本注解：@Override、@Deprecated、@SuppresWarnings、@SafeVarargs、@FunctionalInterface
+- 元注解：@Documented、@Target、@Retention、@Inherited、@Repeatable、@Native
+
+3、读取注解信息需要使用反射相关API。
+
+4、注解使用上分为三个步骤：
+- 注解定义；
+- 注解使用；
+- 注解提取。
+
+5、注解是对程序元素（类、方法、成员变量等）的一种说明，或者说是对程序元素的一种描述，类似于xml。注解不影响程序代码的执行，无论增加删除注解，代码都始终如一地执行。如果希望让程序中的注解起某种作用，只有通过注解提取，对详解中的信息进行访问和处理。
+
+## 数据库编程
+1、Java中数据库编程是通过JDBC实现的，使用JDBC技术涉及三种不同的角色：
+- java官方：提供JDBC接口；
+- 数据库厂商：提供具体的实现类；
+- 开发人员。
+
+2、在编程实现数据库连接时，JVM必须先加载特定厂商提供的数据库驱动程序。使用Class.forName()方法实现驱动程序加载过程。
+
+3、JDBC编程步骤：
+- 1）加载驱动程序；
+- 2）建立数据库连接，得到Connection对象；
+- 3）创建Statement对象（根据Connection对象的方法）；
+- 4）运行SQL语句（根据Statement对象的方法）；
+- 5）处理结果（SELECT返回的结果是ResultSet对象，insert、update、delete返回的结果是影响到的记录数）；
+- 6）释放资源，关闭顺序与声明顺序相反。
+
