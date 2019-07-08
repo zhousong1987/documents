@@ -25,3 +25,5 @@
 6、JSP本质上就是一个Servlet。每个JSP 页面在第一次被访问时，JSP引擎将它翻译成一个Servlet源程序，接着再把这个Servlet源程序编译成Servlet的class类文件，然后再由应用服务器中(如Tomcat)像调用普通Servlet程序一样的方式来装载和解释执行这个由JSP页面翻译成的Servlet程序。
 
 7、Spring致力于Java EE应用各层的解决方案，而不仅仅专注于某一层的方案。可以说，Spring是企业应用开发的“一站式”选择，并贯穿表现层、业务层及持久层。然而，Spring并不想取代那些已有的框架，而是要与它们无缝整合。
+
+8、在Spring5中，web开发将会划分为两个分支，即传统的基于servlet的web编程（spring-webmvc模块）和使用Spring WebFlux实现响应式编程（spring-web-reactive模块）。
