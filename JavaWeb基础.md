@@ -27,3 +27,6 @@
 7、Spring致力于Java EE应用各层的解决方案，而不仅仅专注于某一层的方案。可以说，Spring是企业应用开发的“一站式”选择，并贯穿表现层、业务层及持久层。然而，Spring并不想取代那些已有的框架，而是要与它们无缝整合。
 
 8、在Spring5中，web开发将会划分为两个分支，即传统的基于servlet的web编程（spring-webmvc模块）和使用Spring WebFlux实现响应式编程（spring-web-reactive模块）。
+
+9、狭义上的Spring指的是Spring Framework，广义上的Spring指的是Spring全家桶，包含Spring Data、Spring Security、Spring Boot、Spring Cloud等。
+
