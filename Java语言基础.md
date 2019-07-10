@@ -138,7 +138,9 @@
 
 # Java进阶
 ## 异常处理
-1、Throwable有两个直接子类：Error和Exception。
+1、JDK中定义了一套完整的异常机制，所有异常都是Throwble的子类（Throwable有两个直接子类：Error和Exception），分为Error（致命异常）和Exception（非致命异常）。Error是一种非常特殊的异常类型，它的出现标志着系统发生了不可控的错误，针对此类错误，程序无法处理，只能人工介入。Exception又分为checked异常（受检异常）和unchecked异常（非受检异常）。
+
+2、checked异常是需要在代码中显示处理的异常，否则编译错误。unchecked异常都继承自RuntimeException，可以捕捉也可以不捕捉。
 
 2、Error是程序无法恢复的严重错误，程序员根本无能为力，只能让程序终止；Exception是程序可以恢复的异常，它是程序员所能掌控的。
 
